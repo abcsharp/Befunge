@@ -201,7 +201,7 @@ int main(int argc,char** argv)
 			}
 		}else if(arg.substr(arg.size()-3)==".bf") fileName=arg;
 		else{
-			std::cout<<"\""<<arg<<" is not befunge source file."<<std::endl;
+			std::cout<<"\""<<arg<<"\" is not befunge source file."<<std::endl;
 			return 1;
 		}
 	}
